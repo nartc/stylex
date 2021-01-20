@@ -5,6 +5,11 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-module.exports = function isCustomProperty(name) {
-  return name.startsWith('--');
+export const ariaGlimmerProps = {
+  "aria-busy": true,
+  "aria-valuemax": 100,
+  "aria-valuemin": 0,
+  "aria-valuetext": "Loading...",
+  role: "progressbar",
+  tabIndex: 0
 };

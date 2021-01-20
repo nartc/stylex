@@ -5,6 +5,4 @@
  * LICENSE file in the root directory of this source tree.
  */
 
-module.exports = function isCustomProperty(name) {
-  return name.startsWith('--');
-};
+export * from './Card';
